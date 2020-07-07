@@ -19,3 +19,4 @@ arquivo = open("arquivo1.txt", "r")
 
 print(arquivo.read())
 
+arquivo.close()
