@@ -15,6 +15,8 @@ arquivo2.write("Inserido esse texto")
 arquivo2.close()
 
 arquivo2 = open(nome_arquivo, "r")
+
 print(arquivo2.read())
+
 arquivo2.close()
 
