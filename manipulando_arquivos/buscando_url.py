@@ -22,4 +22,3 @@ def busca_avatar(usuario):
 
 if __name__ == '__main__':
     print(busca_avatar('allef'))
-
