@@ -1,3 +1,13 @@
+"""
+Em orientação a objetos, uma classe é uma descrição que
+abstrai um conjunto de objetos com características similares.
+Mais formalmente, é um conceito que encapsula abstrações de
+dados e procedimentos que descrevem o conteúdo e o comportamento
+de entidades do mundo real, representadas por objetos
+
+Origem: Wikipédia, a enciclopédia livre.
+"""
+
 class Revista():
     """
     Criada a classe 'Revista' com a palavra reservada 'class'.
