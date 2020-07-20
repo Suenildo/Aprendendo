@@ -10,7 +10,7 @@ Origem: Wikipédia, a enciclopédia livre.
 
 class Revistas():
     def __init__(self):
-        pass
+        print('criado o objeto')
 
 
 class Quadrinhos(Revistas):
@@ -25,6 +25,12 @@ class Quadrinhos(Revistas):
         print(f'Revista do tipo {tipo} do estilo {estilo} com o título {titulo}')
 
 
-ciclope = Quadrinhos('Quadrinhos', 'herois', 'Homem de ferro')
+revista_do_tipo = input('Digite o tipo de revista: ')
+revista_estilo = input('Digite o estilo de revista: ')
+titulo_revista = input('Digite o título da revista: ')
 
-ciclope.imprime('Quadrinhos', 'herois', 'Homem de ferro')
+revista1 = Quadrinhos(revista_do_tipo, revista_estilo, titulo_revista)
+
+revista1.imprime(revista_do_tipo, revista_estilo, titulo_revista)
+
+print(type(revista1))
