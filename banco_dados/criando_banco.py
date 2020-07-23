@@ -78,3 +78,6 @@ tuples. If no more rows are available, it returns an empty list.
 cursor.fetchone() method returns a single record or None if no more
 rows are available.
 '''
+
+# Importante: não esqueça de fechar a conexão.
+conexao.close()
