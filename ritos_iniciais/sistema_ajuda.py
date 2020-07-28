@@ -5,7 +5,7 @@ https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ
 
 Que é um excelente canal para quem quer aprender diversos
 assuntos relacionados a programação e tecnologia.
-O nome do fundador é GUANABARA, indico com empenho para
+O nome do fundador é GUANABARA, recomendo com empenho para
 quem quer aprender um conteúdo de qualidade, e acreditem,
 é  DE GRAÇA.
 """
@@ -53,4 +53,5 @@ while True:
         break
     else:
         ajuda(comando)
+
 titulo('ATÉ LOGO', 1)
