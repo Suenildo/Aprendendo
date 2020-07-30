@@ -9,6 +9,7 @@ c = ('\033[m',             # sem cor
      '\033[0;30;45m',      # roxo
      '\033[7;30m')         # branco
 
+# Utilizado mais cores do que vamos precisar só para ilustrar.
 
 print(c[6],'Versão do Python :', sys.version, c[0])
 print()
