@@ -2,6 +2,7 @@
 
 # Soma
 print(1 + 2)
+print(1.0 + 3)
 
 # Diferença
 print(2 - 1)
