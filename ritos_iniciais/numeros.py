@@ -6,7 +6,7 @@ print(1.0 + 3)
 
 # Diferença
 print(2 - 1)
-
+print(-2.0 - 5)
 # Multiplicação
 print(2 * 3)
 
