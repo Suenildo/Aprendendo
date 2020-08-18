@@ -4,7 +4,6 @@ a fórmula de Bhaskara
 """
 from math import sqrt
 
-
 print('Toda equação do 2ª grau, é da forma:')
 print('=*=' * 7)
 print('(a)X² + (b)X + c = 0')
@@ -12,6 +11,7 @@ print('=*=' * 7)
 print()
 print('Portanto, para resolver a sua equação, entre com os coeficientes: a, b e c')
 print()
+
 
 def calculo_das_raizes(a, b, c):
     raizes = []
@@ -50,3 +50,6 @@ while outra_equacao in 'sS':
         print('X2 =', raizes[1])
 
     outra_equacao = input('\nQuer resolver outra equação: S ou N: ')
+    print()
+    print('Bhaskara Akaria, também conhecido como Bhaskaracharya, '
+          'nasceu na cidade de Vijayapura, na Índia, em 1114, e viveu até de 1185.')
