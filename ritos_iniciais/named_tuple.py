@@ -14,6 +14,12 @@ jogador_1 = jogador(nome='Neymar', idade=25, time='Barcelona')
 
 print(jogador_1)
 
+'''
+Outros métodos de declaração:
+ - jogador = namedtuple('jogador', 'nome, idade, time')
+ - jogador = namedtuple('jogador', 'nome idade time')
+ '''
+
 print()
 
 # A partir da declaração, podemos acessar os parâmetros
