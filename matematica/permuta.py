@@ -18,8 +18,8 @@ def permuta_letras(str):
     proxima_lista = []
 
     # Percorrendo a matriz formada pelas permutações
-    for i in range(0, len(lista_atual)):
-        for j in range(0, len(str)):
+    for i in range(len(lista_atual)):  # Poderia se "Range(0, len(lista_atual))
+        for j in range(len(str)):  # Poderia se "Range(0, len(str))
             nova_palavra = lista_atual[i][0:j] + str[0] + lista_atual[i][j:len(str) - 1]
             if nova_palavra not in proxima_lista:
                 proxima_lista.append(nova_palavra)
