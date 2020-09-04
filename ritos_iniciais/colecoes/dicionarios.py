@@ -56,4 +56,3 @@ print()
 # criando uma chave e valor
 precos_construtor['cajuada'] = 2.50
 print(precos_construtor)
-

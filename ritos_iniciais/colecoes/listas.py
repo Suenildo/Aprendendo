@@ -48,4 +48,3 @@ print(lista01)
 
 lista03.insert(0, 'a')  # posso inserir na posição desejada
 print(lista03)
-

@@ -85,5 +85,3 @@ while tabuada <= 10:
 Introdução a Programação com Python
 Nilo Ney Coutinho Meneses
 Novatec'''
-
-

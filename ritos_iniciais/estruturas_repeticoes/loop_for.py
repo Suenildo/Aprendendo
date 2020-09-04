@@ -55,5 +55,3 @@ for n in range(2, 10):
 não é verdadeira
 '''
 
-
-

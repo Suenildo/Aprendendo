@@ -95,5 +95,3 @@ print(cont_palavras)
 print()
 print('As dez palavras que mais aparecem no texto, são:')
 print(cont_palavras.most_common(12))
-
-
