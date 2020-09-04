@@ -24,6 +24,3 @@ import this
 
 
 print(this)
-
-
-
