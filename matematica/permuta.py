@@ -26,9 +26,11 @@ def permuta_letras(str):
     return proxima_lista
 
 
-print(permuta_letras(str(input('Digite a palavra a ser permutada, sem espaços: '))))
+print(permuta_letras('MAR'))
 
+# print(permuta_letras(str(input('Digite a palavra a ser permutada, sem espaços: '))))
 
+"""
 print()
 print()
 
@@ -70,4 +72,4 @@ def perm(s, i=0):
             s = t
 
 
-perm('ABCD')
+perm('ABCD')"""
