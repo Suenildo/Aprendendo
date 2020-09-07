@@ -1,5 +1,6 @@
 """
-Esse programa verifica se um número é primo.
+Esse programa verifica se um número é primo,
+Somente para números Naturais.
 """
 
 import math
@@ -7,10 +8,10 @@ import math
 
 def numPrimo(num):
     """
-    Verificando se um número
+    Verificando se um número2
     é primo.
     """
-    if (num % 2) == 0 and num > 2:
+    if [(num % 2) == 0 and num > 2] and num < 2:
         return print("Este número não é primo!!!")
     for i in range(3, int(math.sqrt(num)) + 1, 2):
         if (num % i) == 0:
