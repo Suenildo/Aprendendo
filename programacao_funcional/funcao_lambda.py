@@ -23,3 +23,16 @@ print('Elevando ao quadrado o valor dos elementos da lista')
 valor_quadrado = map(lambda i: i**2, valor2)
 valor_quadrado = list(valor_quadrado)
 print(valor_quadrado)
+
+# pode ser assim também:
+
+nome_estado = lambda nome, sigla: nome.strip().title() + ' ' + sigla.upper()
+
+print(nome_estado('paraíba', 'pB'))
+
+''' Repare que na função (nome_estado), nós colocamos unas funções para
+correção de possíveis erros cometidos pelos usuários:
+- strip()
+- title()
+- upper()
+'''
