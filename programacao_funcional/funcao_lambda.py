@@ -30,4 +30,9 @@ nome_estado = lambda nome, sigla: nome.strip().title() + ' ' + sigla.upper()
 
 print(nome_estado('paraíba', 'pB'))
 
-
+''' Repare que na função (nome_estado), nós colocamos unas funções para
+correção de possíveis erros cometidos pelos usuários:
+- strip()
+- title()
+- upper()
+'''
