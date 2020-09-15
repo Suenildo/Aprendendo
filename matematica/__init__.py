@@ -1,6 +1,6 @@
 import numpy as np
 
-a = np.array([[1, 2, 3], [4, 5, 6]])
+'''a = np.array([[1, 2, 3], [4, 5, 6]])
 print(a)
 print(a.ndim)
 print(a.shape)
@@ -48,6 +48,11 @@ print(i)
 print('=*=' * 10)
 print('Criando uma matriz com uma diagonal a sua escolha')
 j = np.diag(np.array([5, 9, 12, 0, 3]))
-print(j)
+print(j)'''
+
+a = [[0, 1, 2, 3, 4], [2, 4, 8, 7, 5]]
+
+print(len(a[0]))
+print(len(a))
 
 
