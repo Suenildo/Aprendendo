@@ -37,6 +37,13 @@ y = [[1, 6], [5, 3], [1, 2], [1, 4]]
 C = multiplica_matriz(x, y)
 print(f'O resultado de A x B é  C = {C}')
 
+print()
+
+print('Entendendo o que são os ranges nos loops aninhados:')
+print(f' Eu sou linhas_A --> {len(x)}')
+print(f' Eu sou colunas_B --> {len(y[0])}')
+print(f' Eu sou linhas_B --> {len(y)}')
+print(f' Eu sou colunas_A --> {len(x[0])}')
 '''
 linha 14:
 Obtenho quantas linhas eu tenho, como estamos usando listas, 
