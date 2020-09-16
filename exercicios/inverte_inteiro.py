@@ -10,7 +10,7 @@ Output: -321
 Input: 120
 Output: 21
 """
-
+'''
 
 def inverte_inteiro(num):
     """
@@ -27,8 +27,28 @@ num = 123
 
 print(inverte_inteiro(num))
 
+'''
 
 
-'''a = 'silvio'
-b = a[::-1]
-print(b)'''
+def reverse(x):
+    """
+    :type x: int
+    :rtype: int
+    """
+    s = 0
+    if x > 0:
+        flag = 1
+    else:
+        flag = -1
+    x = str(abs(x))
+    s = int(x[::-1])
+    if s <= 2 ** 31 - 1:
+        return flag * s
+    else:
+        return 0
+
+
+x = int(input("Digite o número a ser invertido:"))
+
+invertido = reverse(x)
+
