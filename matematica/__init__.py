@@ -50,9 +50,37 @@ print('Criando uma matriz com uma diagonal a sua escolha')
 j = np.diag(np.array([5, 9, 12, 0, 3]))
 print(j)'''
 
-a = [[0, 1, 2, 3, 4], [2, 4, 8, 7, 5]]
+x = [[1, 3, 6],
+     [5, 2, 3],
+     [1, 5, 2]]
 
-print(len(a[0]))
-print(len(a))
+y = [[6, 4, 2, 1],
+     [2, 4, 5, 2],
+     [4, 1, 5, 3]]
+
+print("zip(*y)")
+u = list(zip(*y))
+print(u)
+
+print()
+
+print("for y_coluna in zip(*y)")
+for u_colunas in u:
+    print(u_colunas)
+
+print()
+print('=*=' *15)
+
+print("for x_linha in x")
+for c_linha in x:
+    print(c_linha)
+
+print()
+print('=*=' *15)
+
+resultado = [[sum(a*b for a,b in zip(x_linha, y_coluna)) for y_coluna in zip(*y)] for x_linha in x]
+
+for r in resultado:
+    print(r)
 
 

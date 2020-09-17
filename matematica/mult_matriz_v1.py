@@ -18,3 +18,18 @@ resultado = [[sum(a*b for a,b in zip(x_linha, y_coluna)) for y_coluna in zip(*y)
 
 for r in resultado:
     print(r)
+
+'''
+lista = list(zip(x, y))
+print(lista)
+print(len(lista))
+
+u = [a + b for a, b in lista]
+print(u)
+
+print('=*=' * 10)
+s = list(zip(*y))
+t = list(zip(*x))
+
+print(s)
+print(t)'''
