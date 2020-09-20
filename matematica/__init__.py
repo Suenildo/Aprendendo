@@ -69,18 +69,25 @@ for u_colunas in u:
     print(u_colunas)
 
 print()
-print('=*=' *15)
+print('=*=' * 15)
 
 print("for x_linha in x")
 for c_linha in x:
     print(c_linha)
 
 print()
-print('=*=' *15)
+print('=*=' * 15)
 
-resultado = [[sum(a*b for a,b in zip(x_linha, y_coluna)) for y_coluna in zip(*y)] for x_linha in x]
+resultado = [[sum(a * b for a, b in zip(x_linha, y_coluna)) for y_coluna in zip(*y)] for x_linha in x]
 
 for r in resultado:
     print(r)
+
+print()
+print('=*=' * 15)
+
+print('sum')
+a = sum(y, x)
+print(a)
 
 
