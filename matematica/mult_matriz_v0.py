@@ -3,6 +3,7 @@ Multiplicaremos as matrizes 'x' e 'y' usando dois métodos:
 - loop for; e
 - list comprehension
 """
+import a as a
 
 x = [[1, 3, 6],
      [5, 2, 3],
@@ -33,3 +34,8 @@ print()
 resultado = [[sum(a * b for a, b in zip(x_linha, y_coluna)) for y_coluna in zip(*y)] for x_linha in x]
 
 print(f'O resultado de A x B é  C = {resultado}')
+
+print()
+print('=*='*15)
+
+

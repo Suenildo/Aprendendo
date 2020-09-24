@@ -11,6 +11,7 @@ def multiplica_matriz(A, B):
     :param y: Matriz 2
     :return: Matriz resultante do produto 1 por 2
     """
+
     linhas_A = len(A)
     colunas_A = len(A[0])
     linhas_B = len(B)

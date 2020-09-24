@@ -78,3 +78,17 @@ devem ser usadas com moderação, pois torna o código mais complexo
 para que está lendo.
 Lempre-se:  "Readability counts".
 '''
+print()
+
+print('=*=' * 15)
+
+# Usando uma comprehension com zip
+print('Comprehension com a função ZIP')
+x = [1, 3, 6]
+y = [6, 4, 2]
+
+d2 = [a * b for a, b in zip(x, y)]
+print(d2)
+
+d1 = list(zip(x, y))
+print(d1)
