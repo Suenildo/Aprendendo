@@ -41,7 +41,6 @@ def titularizar(palavra):
 a do índice "0", ela a colocará como maiúscula também.
 Cuidado com esse tipo de erro.'''
 
-
 paises = ['brasil', 'espanha', 'bolívia', 'paraguai']
 corrigido = [titularizar(paises) for paises in paises]
 
@@ -71,7 +70,6 @@ os pares, faremos uma modificação na "comprehencion".'''
 numero_pares = [valor for valor in valores if not valor % 2]
 print(numero_pares)
 
-
 '''
 Mesmo dando mais praticidade ao código, as "list comprehensions",
 devem ser usadas com moderação, pois torna o código mais complexo
@@ -89,6 +87,7 @@ y = [6, 4, 2]
 
 d2 = [a * b for a, b in zip(x, y)]
 print(d2)
-
+resultado = sum(d2)
+print(resultado)
 d1 = list(zip(x, y))
 print(d1)
