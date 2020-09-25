@@ -85,9 +85,12 @@ print('Comprehension com a função ZIP')
 x = [1, 3, 6]
 y = [6, 4, 2]
 
-d2 = [a * b for a, b in zip(x, y)]
-print(d2)
-resultado = sum(d2)
-print(resultado)
 d1 = list(zip(x, y))
 print(d1)
+
+d2 = [a * b for a, b in zip(x, y)]
+print(d2)
+
+resultado = sum(d2)
+print(resultado)
+
