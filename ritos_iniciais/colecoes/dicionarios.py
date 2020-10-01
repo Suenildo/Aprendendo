@@ -81,3 +81,16 @@ for chave in dias_dos_meses.keys():
 
 for valor in dias_dos_meses.values():
     print(valor)
+
+print()
+print('Mais algumas funções com dicionários:')
+
+soma = sum(dias_dos_meses.values())
+valor_maximo = max(dias_dos_meses.values())
+valor_minimo = min(dias_dos_meses.values())
+tamanho = len(dias_dos_meses)
+
+print(f'O valor da soma dos dias mostrados é: {soma}')
+print(f'O valor máximo dos valores é: {valor_maximo}')
+print(f'O valor mínimo dos valores é: {valor_minimo}')
+print(f'A quantidade de intens no dicionário é: {tamanho}')
