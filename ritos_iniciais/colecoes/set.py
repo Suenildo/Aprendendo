@@ -12,7 +12,6 @@ print(type(set_01))
 set_02 = set([1, 2, 8, 9, 10])
 print(type(set_02))
 
-
 # Adicionando elementos
 set_01.add(10)
 print("Adição", set_01)
@@ -24,7 +23,6 @@ print("Atualição", set_01)
 # Removendo elemento
 set_01.discard(12)
 print("Remoção", set_01)
-
 
 set_03 = {1, 2, 3, 4, 1}
 set_04 = {1, 2, 8, 9, 10}
