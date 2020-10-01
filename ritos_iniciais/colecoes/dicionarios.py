@@ -56,3 +56,28 @@ print()
 # criando uma chave e valor
 precos_construtor['cajuada'] = 2.50
 print(precos_construtor)
+
+print()
+
+print('--' * 13)
+print('Outras maneiras de acesso:')
+print('--' * 13)
+
+print()
+
+dias_dos_meses = {'Janeiro': 31, 'Fevereiro': 28, 'Março': 31, 'Abril': 30}
+
+print('Imprimindo um dicionário de chaves:')
+print(dias_dos_meses.keys())
+print()
+
+print('Imprimindo um dicionário de valores:')
+print(dias_dos_meses.values())
+
+print()
+
+for chave in dias_dos_meses.keys():
+    print(chave)
+
+for valor in dias_dos_meses.values():
+    print(valor)
