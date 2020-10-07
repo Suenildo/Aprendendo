@@ -20,3 +20,9 @@ print()
 print("Vamos pegar as linhas 0, 3 e 5")
 slice_3 = matriz[[0, 3, 5]]
 print(slice_3)
+
+print()
+
+print('Vamos retornar a coluna 0 como um vetor (lista)')
+slice_4 = matriz[:, 0]
+print(slice_4)
