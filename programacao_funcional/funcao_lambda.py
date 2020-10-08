@@ -12,7 +12,6 @@ Note, na sintaxe, que as funções lambda não utilizam keyword return
 devido o seu retorno já está dentro da própria função.
 """
 
-
 valor = [1, 2, 3, 4, 5]
 valor2 = [1, 2, 3, 4, 5]
 
@@ -44,3 +43,11 @@ correção de possíveis erros cometidos pelos usuários:
 - title(): Inicias as palavras com maiúsculas
 - upper()
 '''
+
+print()
+
+print('Vamos ordenar uma lista com a função lambda')
+# Vamos ordenar pelo sobrenome:
+lista_a_ser_ordenada = ['Carlos Henrique', 'Paulo Ricardo', 'Sonia Lima', 'Ana Alice']
+lista_a_ser_ordenada.sort(key=lambda sobrenome: sobrenome.split(' ')[-1])
+print(lista_a_ser_ordenada)
