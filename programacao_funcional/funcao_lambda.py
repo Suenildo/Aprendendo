@@ -49,5 +49,35 @@ print()
 print('Vamos ordenar uma lista com a função lambda')
 # Vamos ordenar pelo sobrenome:
 lista_a_ser_ordenada = ['Carlos Henrique', 'Paulo Ricardo', 'Sonia Lima', 'Ana Alice']
-lista_a_ser_ordenada.sort(key=lambda sobrenome: sobrenome.split(' ')[-1])
+lista_a_ser_ordenada.sort(key=lambda sobrenome: sobrenome.split(' ')[1])
 print(lista_a_ser_ordenada)
+
+print()
+
+print('Vamos ordenar uma lista de alunos por idade:')
+estudantes = [
+    ('Marcos', 'A', 15),
+    ('jane', 'B', 12),
+    ('Silvio', 'B', 10),
+    ('Luiza', 'A', 17),
+    ('Nivia', 'B', 11),
+    ('Julio', 'B', 8),
+    ]
+estudantes.sort(key=lambda student: student[2])
+print(estudantes)
+
+'''
+Tanto o método list.sort() quanto a função sorted() possuem um parâmetro key 
+que especifica uma função (ou outro chamável) a ser chamada para cada elemento 
+da lista antes de ser realizada a comparação.
+
+O valor do parâmetro key deve ser uma função (ou outro chamável) que recebe um 
+único argumento e retorna uma chave à ser utilizada com o propósito de ordenação. 
+Esta técnica é rápida porque a função chave é chamada exatamente uma vez para cada 
+entrada de registro.
+
+Uma padrão comum é ordenar objetos complexos utilizando algum índice do objeto como chave.
+
+fonte:
+https://docs.python.org/pt-br/dev/howto/sorting.html
+'''
