@@ -5,7 +5,14 @@ usando apenas uma linha de código. Onde var1, var2, ..., varN
 são variáveis que representam o argumento da função e expr é
 qualquer expressão válida em Python envolvendo essas variáveis.
 O resultado é uma nova expressão expr_ret.
+
+Sintaxe: lambda argumento_1, …aurgumento_n: expressão
+
+Note, na sintaxe, que as funções lambda não utilizam keyword return
+devido o seu retorno já está dentro da própria função.
 """
+
+
 valor = [1, 2, 3, 4, 5]
 valor2 = [1, 2, 3, 4, 5]
 
@@ -32,7 +39,8 @@ print(nome_estado('paraíba', 'pB'))
 
 ''' Repare que na função (nome_estado), nós colocamos unas funções para
 correção de possíveis erros cometidos pelos usuários:
-- strip()
-- title()
+- strip(): retorna uma cópia de uma string com determinados 
+           caracteres removidos do início e do fim
+- title(): Inicias as palavras com maiúsculas
 - upper()
 '''
