@@ -26,3 +26,17 @@ print()
 print('Printa um valor aleatório entre um iterável')
 frutas = ['banana', 'maçã', 'uva']
 print(f'A fruta escolhida foi: {random.choice(frutas)}')
+
+print()
+print('É uma função que embaralha dados')
+numeros = [1, 2, 3, 4, 5]
+random.shuffle(numeros)
+print(numeros)
+
+'''
+Esta não é a maneira ideal de importar um módulo,
+pois você aloca muita coisa na memória, o ideal é 
+sempre otimizar os importes, desde que, você
+saiba previamente quais funções do pacote você
+irá utilizar
+'''
