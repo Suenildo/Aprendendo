@@ -39,4 +39,25 @@ pois você aloca muita coisa na memória, o ideal é
 sempre otimizar os importes, desde que, você
 saiba previamente quais funções do pacote você
 irá utilizar
+
+Caso eu não queira usar a (sintaxe) usada nesse arquivo,
+como por exemplo: random.shuffle(numeros)
+Onde eu tenho que colocar o nome do módulo mais a 
+função.
+Eu importria o módulo da seguinte forma:
+
+from random import *
+
+assim a sintaxe ficaria:
+shuffle(numeros)
+
+Entretanto, a forma pythonica de realizar vários imports é:
+
+from random import (randint,
+                    shuffle,
+                    uniform,
+                    random
+                    )
+
+
 '''
