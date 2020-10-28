@@ -23,6 +23,16 @@ print(f'list comprehensio: {conjunto} bytes')
 print(f'list comprehensio: {dicionario} bytes')
 print(f'list comprehensio: {gerador} bytes')
 
+'''Acontece essa diferença, porque o generators não gerou
+a lista, ele só deixou preparado para quando você precisar'''
+
+# Vamos ver a geração do generators com um for:
+
+gerador_1 = (x ** 2 for x in range(100))
+
+for num in gerador_1:
+    print(num)
+
 '''Exemplos pegos no curso:
 Geek University
 Evolua seu lado geek! 
