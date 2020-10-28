@@ -29,3 +29,22 @@ animais = [
 print(animais)
 
 print(sorted(animais, key=lambda tipo: tipo["felino"]))
+
+print()
+
+notas = [
+    {"Matéria": "Matemática", "nota": 7},
+    {"Matéria": "Português", "nota": 8},
+    {"Matéria": "Química", "nota": 9},
+    {"Matéria": "Física", "nota": 5},
+    {"Matéria": "Inglês", "nota": 10},
+]
+
+print('Notas da maior para a menor:')
+print(sorted(notas, key=lambda nota: nota["nota"], reverse=True))
+
+print()
+
+print('Notas da menor para a maior:')
+print(sorted(notas, key=lambda nota: nota["nota"]))
+
