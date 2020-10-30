@@ -14,10 +14,10 @@ class Iterador:
         raise StopIteration
 
 
-for i in Iterador(1, 61):
+for i in Iterador(0, 11):
     print(i, end=" ")
 
 print()
 
-for j in range(1, 61):
+for j in range(0, 11):
     print(j, end=" ")
