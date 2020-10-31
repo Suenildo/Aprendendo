@@ -37,3 +37,20 @@ print()
 
 meu_gerador = list(numero_crescente(6))
 print(meu_gerador)
+
+print()
+print('**** Expressões geradoras ****')
+# Usando expressões geradoras
+
+# Observe uma list comprehension:
+cubos = [x ** 3 for x in range(5)]
+print(cubos)
+
+# Agora uma expressão geradora:
+cubos_1 = (x ** 3 for x in range(5))
+print(next(cubos_1))
+
+for i in cubos_1:
+    print(i, end=" ")
+''' como no primeiro print de cubos_1 ele já tinha pego o primeiro
+número , no for ele parte a partir do segundo.'''
