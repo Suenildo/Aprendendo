@@ -52,5 +52,3 @@ print(next(cubos_1))
 
 for i in cubos_1:
     print(i, end=" ")
-''' como no primeiro print de cubos_1 ele já tinha pego o primeiro
-número , no for ele parte a partir do segundo.'''
