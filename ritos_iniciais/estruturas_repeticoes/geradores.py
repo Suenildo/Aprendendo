@@ -31,6 +31,8 @@ print(next(meu_gerador))
 print(next(meu_gerador))
 # print(next(meu_gerador))  Aqui teremos o erro: StopIteration
 
+print(meu_gerador)
+
 print()
 
 # Imprimindo todos em uma lista:
@@ -52,3 +54,8 @@ print(next(cubos_1))
 
 for i in cubos_1:
     print(i, end=" ")
+print()
+
+print(cubos_1)
+''' como no primeiro print de cubos_1 ele já tinha pego o primeiro
+número , no for ele parte a partir do segundo.'''
