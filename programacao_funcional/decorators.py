@@ -4,25 +4,25 @@ o comportamento de uma função, classe ou método, dinamicamente.
 """
 
 
-class Objetivo(object):
+class Matematica(object):
     def __init__(self, f):
         print('Qual o seu nome e o que você faz?')
         self.f = f
 
     def __call__(self, *args):
         self.f(args[0].upper())
-        print('Eu salvo o mundo')
+        print('Sou uma operação matemática')
 
 
-@Objetivo
-def heroi(nome):
+@Matematica
+def operacao(nome):
     print(f'Nome: {nome}')
 
 
-heroi('Super Homem')
+operacao('Soma')
 print()
-heroi('Homem de Ferro')
+operacao('Subtração')
 print()
-heroi('Hulk')
+operacao('Multiplicação')
 print()
-heroi('Mulher Maravilha')
+operacao('Divisão')
