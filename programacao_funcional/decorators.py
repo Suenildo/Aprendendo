@@ -4,6 +4,7 @@ o comportamento de uma função, classe ou método, dinamicamente.
 """
 
 
+# Vamos criar uma classe decoradora:
 class Matematica(object):
     def __init__(self, f):
         print('Qual o seu nome e o que você faz?')
@@ -14,7 +15,7 @@ class Matematica(object):
         print('Sou uma operação matemática')
 
 
-@Matematica
+@Matematica  # Decorators
 def operacao(nome):
     print(f'Nome: {nome}')
 
@@ -26,3 +27,23 @@ print()
 operacao('Multiplicação')
 print()
 operacao('Divisão')
+
+print()
+print()
+
+
+# Exemplo com uma função:
+
+def titulo(funcao):
+    def entitular(nome):
+        return funcao(nome).title()  # aqui o parâmetro é modificado
+
+    return entitular  # Aqui é o retorno da função principal, chamando a função secundária
+
+
+@titulo  # Decorators
+def palavra(nome):
+    return 'adriana'
+
+
+print(palavra('otimo'))
