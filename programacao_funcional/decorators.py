@@ -43,7 +43,23 @@ def titulo(funcao):
 
 @titulo  # Decorators
 def palavra(nome):
-    return 'adriana'
+    return 'adriana é jogadora de video game'
 
+
+#  O decorador será aplicado em tuda a função
 
 print(palavra('otimo'))
+
+'''
+Caso você não saiba se suas futuras funções que serão decoradas
+vão possuir um, dois ou mais parâmetros, você pode generalizar o
+número de parâmetros com o ((Decorator Pattern))
+
+exemplo
+
+def titulo(funcao):
+    def entitular(*args, **kwargs):
+        return funcao(nome).title() 
+
+    return entitular  
+'''
