@@ -37,4 +37,4 @@ def dividir(a, b):
     print(a / b)
 
 
-dividir("20", '10')
+dividir('20', '10')

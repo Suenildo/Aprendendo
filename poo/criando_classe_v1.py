@@ -5,7 +5,7 @@ correta, passados como parâmetros.
 
 
 class RevistaQuadrinhos():
-    def __init__(self, tipo, titulo):
+    def __init__(self, tipo, titulo): #  Método construtor
         self.tipo = tipo
         self.titulo = titulo
 
