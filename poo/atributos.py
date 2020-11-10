@@ -13,7 +13,9 @@ Grupos de atributos:
               geralmente inicializados com um valor, e esse valor é
               é compartilhado entre todas as instâncias.
 
- - Dinâmico -->
+ - Dinâmico --> É um atributo de instância que pode ser criado e tempo de execução.
+                O atributo dinâmico é exclusividade da instância que o criou.
+                (não é aconselhável esse tipo de atributo)
 """
 
 
@@ -71,3 +73,20 @@ class Revistinha:
 
 revista = Revistinha('Infantil', 'Mônica')
 print(revista.padrao)  # Note que na instância eu não citei o padrão.
+
+print()
+print('=*=' * 10)
+
+#  Atributo dinâmico.
+
+revista.numer_pagina = '56'  # Este é um atributo dinâmico, não existe na classe.
+
+print(revista.numer_pagina)
+
+print(revista.__dict__)
+
+
+''' Os atributos podem ser removidos(deletados) dinamicamente, isso se faz com a palavra (del):
+exemplo:
+del revista.tipo
+del revista.titulo '''
