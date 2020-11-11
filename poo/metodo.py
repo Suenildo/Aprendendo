@@ -3,6 +3,12 @@ Os métodos determinam o comportamento dos objetos de uma classe e
 são análogos às funções ou procedimentos da programação estruturada.
 
 Origem: Wikipédia, a enciclopédia livre.
+
+- Métodos de Instância:
+  -
+
+- Métodos de Classe:
+  -
 """
 
 
