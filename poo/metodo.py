@@ -5,12 +5,15 @@ são análogos às funções ou procedimentos da programação estruturada.
 Origem: Wikipédia, a enciclopédia livre.
 
 - Métodos de Instância:
-  -
+  - Métodos encontrados dentro da classe, São métodos
+    vinculados as Instâncias da Classe.
 
 - Métodos de Classe:
-  -
+  - Para criar um método de classe, é preciso usar um decorator.
+    @classmethod
+  def nome_do_metodo(cls):
+      xxx
 """
-
 
 class RevistaQuadrinhos():
     def __init__(self, tipo, titulo):
