@@ -20,7 +20,9 @@ class Cliente:
         print(f'ID: {Cliente.contador_id}')
 
 
-a = input('Digite o nome do novo cleinte: ')
+
+
+a = input('Digite o nome do novo cliente: ')
 b = input('Digite o CPF do novo cliente: ')
 c = input('Digite o RG do novo cliente: ')
 
@@ -28,3 +30,4 @@ cliente_01 = Cliente(a, b, c)
 
 
 cliente_01.imprime(a, b, c)
+
