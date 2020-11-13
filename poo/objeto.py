@@ -11,6 +11,16 @@ Origem: Wikipédia, a enciclopédia livre.
 # Em python, tudo é um objeto
 lista_vogais = ['a', 'e', 'i', 'o', 'u']
 print(type(lista_vogais))
+
+
+numero = 2
+print(type(numero))
+
+
+string = 'madeira'
+print(type(string))
+
+
 # podemos ver que 'lista_vogais' é um objeto instanciado na classe 'list'
 
 class RevistaQuadrinhos():
@@ -21,7 +31,9 @@ class RevistaQuadrinhos():
     def imprime(self, tipo, titulo):
         print(f'Revista do tipo {tipo} com o título {titulo}')
 
+
 revistinha = RevistaQuadrinhos('Heróis', 'Homem Aranha')
+revistinha.imprime('Heróis', 'Homem Aranha')
 
 print(type(revistinha))
 # podemos ver que 'revistinha' é um objeto instanciado na classe 'RevistaQuadrinhos'
