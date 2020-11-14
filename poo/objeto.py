@@ -12,16 +12,12 @@ Origem: Wikipédia, a enciclopédia livre.
 lista_vogais = ['a', 'e', 'i', 'o', 'u']
 print(type(lista_vogais))
 
-
 numero = 2
 print(type(numero))
-
 
 string = 'madeira'
 print(type(string))
 
-
-# podemos ver que 'lista_vogais' é um objeto instanciado na classe 'list'
 
 class RevistaQuadrinhos():
     def __init__(self, tipo, titulo):
