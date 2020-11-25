@@ -19,7 +19,7 @@ string = 'madeira'
 print(type(string))
 
 
-class RevistaQuadrinhos():
+class RevistaQuadrinhos:
     def __init__(self, tipo, titulo):
         self.tipo = tipo
         self.titulo = titulo

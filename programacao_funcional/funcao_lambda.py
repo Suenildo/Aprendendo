@@ -81,3 +81,8 @@ Uma padrão comum é ordenar objetos complexos utilizando algum índice do objet
 fonte:
 https://docs.python.org/pt-br/dev/howto/sorting.html
 '''
+
+'''
+como usar if, elif & else em uma função lambda?:
+lambda <args> : <return Value> if <condition > ( <return value > if <condition> else <return value>)
+'''
