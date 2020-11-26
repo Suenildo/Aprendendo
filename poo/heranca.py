@@ -1,4 +1,6 @@
 """
+----Herança ou Inheritance----
+
 Herança é um princípio de orientação a objetos, que permite que
 classes compartilhem atributos e métodos, através de "heranças".
 Ela é usada na intenção de reaproveitar código ou comportamento
@@ -8,7 +10,7 @@ Origem: Wikipédia, a enciclopédia livre.
 """
 
 
-class Revistas():
+class Revistas:
     def __init__(self):
         print('criado o objeto')
 
