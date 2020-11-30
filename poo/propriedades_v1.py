@@ -48,26 +48,26 @@ class Conta:
         return self.__saldo + self.limite
 
 
-conta1 = Conta('Silvio', 2000, 3000)
-conta2 = Conta('Silvia', 1000, 5000)
+conta_cliente_01 = Conta('Silvio', 2000, 3000)
+conta_cliente_02 = Conta('Silvia', 1000, 5000)
 
-print(conta1.extrato())
-print(conta2.extrato())
+print(conta_cliente_01.extrato())
+print(conta_cliente_02.extrato())
 
-soma = conta1.saldo + conta2.saldo
+soma = conta_cliente_01.saldo + conta_cliente_02.saldo
 print(f'A soma do saldo das contas é: {soma}')
 
 print()
 # Verificando dados originais:
-print(conta1.__dict__)
+print(conta_cliente_01.__dict__)
 print()
 
 # vamos alterar dados:
-conta1.limite = 6000
+conta_cliente_01.limite = 6000
 
 # Verificando dados alterados:
-print(conta1.__dict__)
+print(conta_cliente_01.__dict__)
 
 print()
-print(f'O valor total disponível na conta1 é {conta1.valor_total}')
-print(f'O valor total disponível na conta2 é {conta2.valor_total}')
+print(f'O valor total disponível na conta1 é {conta_cliente_01.valor_total}')
+print(f'O valor total disponível na conta2 é {conta_cliente_02.valor_total}')
