@@ -62,4 +62,14 @@ print()
 wily = Pinguim('Wily')
 print(wily.andar())
 print(wily.nadar())
-print(wily.cumprimentar())
+print(wily.cumprimentar()) # (*)
+
+'''
+(*)
+A forma de herdar é Method Resolution Order - MRO
+'''
+
+print(f'Wily é instância de Pinguim? {isinstance(wily, Pinguim)}')
+print(f'Wily é instância de Aquatico? {isinstance(wily, Aquatico)}')
+print(f'Wily é instância de Terrestre? {isinstance(wily, Terrestre)}')
+print(f'Wily é instância de object? {isinstance(wily, object)}')
